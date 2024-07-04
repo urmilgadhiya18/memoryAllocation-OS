@@ -19,7 +19,7 @@ This is a webpage simulator that allows users to explore different memory alloca
 1. Clone or download this repository.
 2. Open the `memoryAllocation.html` file in a web browser.
 
-**Example Input:**
+### **Example Input:**
 
 * **Number of Memory Holes:** 3
 * **Hole Sizes (KB):**
@@ -36,6 +36,27 @@ This is a webpage simulator that allows users to explore different memory alloca
 
 3. Follow the on-screen instructions to enter the data as specified above.
 4. Click the "Save Data" button after entering process sizes.
+
+### **Visual Representation of Memory**
+1. **First Fit**:
+
+   | Memory (KB) |  1 kb | P1  |    P3 | P4 | P5 | P  |    100 kb | P | 118 kb |
+   |-------------|------|-----|-------|---|-----|-----|-------|---|-----|
+
+2. **Next Fit**:
+
+   | Memory (KB) |  1 kb | P1  |    P3 | P4 | P5 | P  |    100 kb | P | 118 kb |
+   |-------------|------|-----|-------|---|-----|-----|-------|---|-----|
+
+3. **Best Fit**:
+
+   | Memory (KB) |  13 kb | P2 | P | 4 kb  |    P1 | P4 | P | 7 kb  |    P3 |
+   |-------------|------|---|-----|-----|--------|---|-----|-----|-------|
+
+4. **Worst Fit**:
+
+   | Memory (KB) |  22 kb | P1 | P3 | P5  |    P | 100 kb |    P | 97 kb | P4 |
+   |-------------|------|---|-----|-----|-------|---|--------|---|-----|
 
 **Example Output Table:**
 
