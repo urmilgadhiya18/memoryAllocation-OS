@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Memory Allocation</title>
+</head>
+<body>
+    <div class="box">
+        <h1 style="display: flex; justify-content: center; align-items: center; padding: 10px 0px;">Memory Allocation Algorithms</h1>
+        <div class="input">
+            <label for="nholes">Enter the number of Holes in the Memory: </label>
+            <input type="number" name="nholes" id="nholes"><br><br>
+            <button id="inputButton" onclick="displayInputTable()"> Get Holes Input Table</button>
+        </div>
+        <div class="table">
+            <div id="inputTable"></div>
+            <div id="save" onclick="saveDataHole()"></div>
+        </div>
+        <div id="gainchart"></div>
+        <div id="processInput"></div>
+        <div class="table">
+            <div id="processInputTable"></div>
+            <div id="processesInput" onclick="saveDataProcess()"></div>
+        </div>
+        <div class="gainchart" id="fgaintchart"></div>
+        <div class="gainchart" id="ngaintchart"></div>
+        <div class="gainchart" id="bgaintchart"></div>
+        <div class="gainchart" id="wgaintchart"></div>
+        <hr id="hl" style="display: none; width: 45%;">
+        <div id="outputTable"></div>
+        <div id="analysis" style="display: none;"><h1>Analysis: </h1></div>
+        <h3 id="author"> </h3>
+    </div>
+</body>
+<script src="./memoryAllocation.js"></script>
+</html>

@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* height: max-content; */
+    /* width: max-content; */
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding: 20px 0 10px 0;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+input,button{
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-align: center;
+    width: 118px;
+    border: 1px solid #000;
+}
+button{
+    /* background-color: #1e90ff; */
+    color: #000;
+    font-weight: 600;
+    width: max-content;
+    cursor: pointer;
+}
+button:hover{
+    /* background: linear-gradient(85deg, #434343, #262626); */
+    background-color: #1e90ff;
+    color: #fff;
+}
+table{
+    padding: 30px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.algorithms{
+    margin-top: 10px;
+}
+
+#gainchart,.gainchart{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.chart{
+    display: flex;
+    height: max-content;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    border: 1.8px solid black;
+    /* padding: 10px 16px; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+ #outputTable{
+    display: flex;
+    margin-top: 25px;
+}
+
+.output th,.output td {
+     background-color: #fff;
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 15px;
+    /* width: 500px; */
+}
+td input{
+    width: 100%;
+    border-radius: 14px;
+}
+th{
+    font-size: 18px;
+    font-weight: 900;
+}
+th,.td{
+    padding: 12px 18px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.table input[type='number'] {
+    text-align: center;
+}
+
+#analysis{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    /* font-size: 18px; */
+    font-weight: 700;
+    row-gap: 5px;
+}
+/* #clear{
+    margin: 15px;
+} */
+    
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.hole{
+    min-height: 100%;
+    min-width: max-content;
+    padding: 12px 18px;
+    background-color: #eb2323;
+}
+.pro{
+    min-height: 100%;
+    min-width: max-content;
+    border-left: 1px solid #000;
+    padding: 12px 18px;
+    background-color: #13cd09;
+}
+#P1{
+    background-color: #29e714;
+}
+#P1{
+    background-color: #910a0a;
+}
+#P2{
+    background-color: #160fe7;
+}
+#P3{
+    background-color: #e639b7;
+}
+#P4{
+    background-color: #64c5eb;
+}
+#P5{
+    background-color: #719410;
+}
+#P6{
+    background-color: #ffff00;
+}
+#P7{
+    background-color: #f88f18;
+}
+#P8{
+    background-color: #00ec96;
+}
+#P9{
+    background-color: #63007c;
+}
+#P10{
+    background-color: #98376f;
+}
+/* #processInputTable{
+    height: max-content;
+} */
